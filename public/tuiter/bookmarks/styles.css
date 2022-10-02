@@ -1,0 +1,164 @@
+.wd-background {
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue";
+  font-size: 13px;
+}
+
+.wd-border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+
+}
+
+.wd-padding-left {
+  padding-left: 16px;
+}
+
+.wd-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.wd-gray-text {
+  font-size: 13px;
+  color: darkgray;
+}
+
+.wd-right {
+  font-size: 20px;
+  float: right;
+  padding-right: 13px;
+}
+
+.wd-blue {
+  color: rgb(29,161,242);
+}
+
+.wd-top {
+  padding: 4px;
+}
+
+.wd-no-bullets {
+  list-style: none;
+  padding: 0px;
+  margin:  0px;
+}
+
+.wd-profile-pic {
+  width: 48px;
+  width: 48px;
+  border-radius: 24px;
+
+}
+
+.wd-padding-top {
+  padding-top: 12px;
+
+}
+
+
+.wd-grid-row {
+  clear: both;
+}
+
+.wd-col {
+  float: left;
+  max-width: 506px;
+  padding-left: 12px;
+  padding-top:  0px;
+  padding-bottom: 12px;
+}
+
+.wd-col-48 {
+  float: left;
+  width: 48px;
+}
+
+.wd-overflow {
+  overflow: auto;
+}
+
+.wd-white-text {
+  color: white;
+  padding-top: 5px;
+}
+
+.wd-user {
+  font-size: 15px;
+}
+
+.wd-post-padding {
+  padding: 0px;
+}
+
+.wd-size15 {
+  font-size: 15px;
+}
+
+.wd-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  width: 504px;
+  height: 264px;
+  padding: 0px;
+}
+
+.wd-image-link {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(47, 51, 54);
+  width: 504px;
+
+}
+
+.wd-link-enclosed-text {
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size:  15px;
+}
+
+.wd-gray-link-text {
+  padding-top: 6px;
+  font-weight: normal;
+  color: darkgray;
+  font-size:  15px;
+}
+
+.wd-small-top-padding {
+  padding-top: 2px;
+}
+
+.wd-action-button {
+  padding:  12px;
+  color: darkgray;
+  text-decoration: none;
+}
+
+.wd-buttons-row {
+  color: darkgray;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0px;
+}
+
+.wd-small-padding-right {
+  padding-right: 12px;
+}
+
+.wd-red {
+  color: red;
+}
+
+.wd-no-link {
+  text-decoration: none;
+  color: darkgray;
+}
