@@ -50,7 +50,7 @@
   width: 48px;
   width: 48px;
   border-radius: 24px;
-
+  object-fit: cover;
 }
 
 .wd-padding-top {
@@ -106,6 +106,7 @@
   width: 504px;
   height: 264px;
   padding: 0px;
+  object-fit: cover;
 }
 
 .wd-image-link {
@@ -148,6 +149,8 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 0px;
+  width: 90%;
+  padding-top: 4px;
 }
 
 .wd-small-padding-right {

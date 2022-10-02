@@ -150,6 +150,8 @@
   border-radius: 10px;
   padding: 0px;
   margin: 0px;
+  object-fit: cover;
+
 }
 
 .wd-overflow {
