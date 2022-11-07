@@ -1,6 +1,8 @@
 import React from "react";
 import PostSummaryList from "../post-summary-list";
 import "./index.css";
+import TuitItem from "../tuits/tuit-item";
+
 const ExploreComponent = () => {
   return(
       <>
@@ -33,6 +35,7 @@ const ExploreComponent = () => {
             SpaceX Starship</h1>
         </div>
         <PostSummaryList/>
+        <TuitItem/>
       </>
   );
 };
