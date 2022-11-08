@@ -1,11 +1,15 @@
 import React from "react";
 import "./styles.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
 import "https://kit.fontawesome.com/80b90f727e.js";
+
+import {useDispatch} from "react-redux";
+
+
 
 const TuitItem = (
     {
+
       post = {
         "_id": 234,
         "topic": "Space",
@@ -22,28 +26,34 @@ const TuitItem = (
       }
     }
 ) => {
+
+  // const dispatch = useDispatch();
+  // const deleteTuitHandler = (id) => {
+  //   dispatch(deleteTuit(id));
+  // }
+
   return(
       <li className="list-group-item">
         <div className="row">
-          <div className="col-2">
-            <img className="rounded-circle" height={48} src={`/images/${post.image}`}/>
+          <div className="col-1 margin-right-left m-2">
+            <img className="rounded-circle" height={48} width={48} src={`/images/${post.image}`}/>
           </div>
           <div className="col-10">
             <div>{post.userName} . {post.time}</div>
             <div className="fw-bolder">{post.topic}</div>
-            <div>{post.title}</div>
+            <div>{post.tuit}</div>
             <div className="wd-buttons-row">
               <a className="wd-action-button " href="#">
                 <i className="wd-small-padding-right fa-lg fa-regular fa-comment"></i>
-                22
+                {post.replies}
               </a>
               <a className="wd-action-button " href="#">
                 <i className="wd-small-padding-right fa-lg fa-solid fa-retweet"></i>
-                9
+                {post.retuits}
               </a>
               <a className="wd-action-button wd-red" href="#">
                 <i className="wd-small-padding-right fa-lg fa-solid fa-heart"></i>
-                37
+                {post.likes}
               </a>
               <a className="wd-action-button " href="#">
                 <i className="fa-lg fa-solid fa-arrow-up-from-bracket"></i>
