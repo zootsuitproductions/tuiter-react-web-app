@@ -5,6 +5,8 @@ import "https://kit.fontawesome.com/80b90f727e.js";
 
 import {useDispatch} from "react-redux";
 
+import {deleteTuit} from "./tuits-reducer";
+
 
 
 const TuitItem = (
@@ -27,10 +29,10 @@ const TuitItem = (
     }
 ) => {
 
-  // const dispatch = useDispatch();
-  // const deleteTuitHandler = (id) => {
-  //   dispatch(deleteTuit(id));
-  // }
+  const dispatch = useDispatch();
+  const deleteTuitHandler = (id) => {
+    dispatch(deleteTuit(id));
+  }
 
   return(
       <li className="list-group-item">
@@ -40,6 +42,8 @@ const TuitItem = (
           </div>
           <div className="col-10">
             <div>{post.userName} . {post.time}</div>
+            <i className="bi bi-x-lg float-end"
+               onClick={() => deleteTuitHandler(post._id)}></i>
             <div className="fw-bolder">{post.topic}</div>
             <div>{post.tuit}</div>
             <div className="wd-buttons-row">

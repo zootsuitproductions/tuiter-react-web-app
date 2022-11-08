@@ -10,7 +10,7 @@ const TuitsList = () => {
       <ul className="list-group">
         {
           tuits.map(tuit =>
-            <TuitItem post={tuit}/>
+            <TuitItem key={tuit._id} post={tuit}/>
           )
         }
       </ul>
