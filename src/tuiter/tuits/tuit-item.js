@@ -1,6 +1,5 @@
 import React from "react";
 import "./styles.css"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import "https://kit.fontawesome.com/80b90f727e.js";
 
 import {useDispatch} from "react-redux";
